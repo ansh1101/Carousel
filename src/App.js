@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Mydrops from './components/Mydrops';
+import Header from './components/Header';
+import Entry from './components/Entry';
+import Slider from './components/Slider';
+const  App = (props) => {
 
-function App() {
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header  />
+      <Mydrops name={"Categories"} />
+      <Entry />
+      <Slider />
     </div>
+
   );
+
 }
 
 export default App;

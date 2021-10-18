@@ -1,0 +1,113 @@
+.main{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    box-shadow:10px 10px 10px 10px  rgb(92, 78, 77);
+    border-radius: 9px;
+    background:linear-gradient(rgb(19, 140, 156),rgb(251, 255, 252))
+}
+h1{
+    color: rgb(248, 252, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    width: 12px;
+    height: 12px;
+    color: black;
+}
+body{
+    background-color: #d7d9dd;
+    margin: 0;
+    
+}
+.category{
+    padding: 30px;
+    position: relative;
+    top: -20px;
+
+}
+option{
+    background-color: rgb(186, 166, 204);
+    width: 100px;
+}
+.selectCategory {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 7px;
+    border-style:solid;
+    box-shadow: 2px 2px 2px  rgb(122, 228, 222);
+}
+.icon{
+    border-radius: 13px;
+}
+.images{
+    width: 700px;
+    height:450px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -130px;
+    
+    right: 50px;
+
+
+    
+}
+
+
+.btn1{
+    position: relative;
+    box-shadow: #00000040 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     bottom: -200px; 
+    border-radius:4px;
+     left: 850px;
+    border: none;
+    width:100px;
+    border: none;
+    height:20px ; 
+
+}
+
+.btn3 {
+    position: relative;
+    bottom: -200px;
+    left:50px;
+    border: none;
+    border: none;
+    width:100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height:20px ;
+    border-radius:4px;
+
+}
+
+
+.myTitle{
+    color: rgb(11, 6, 15);
+}
+#hex{
+    color: rgb(160, 160, 179);
+}
+    .frames{
+    display: flex;
+    justify-content: flex;
+    align-items:stretch ;
+    justify-content: center;
+    position: relative;
+    top: -120px;
+    
+    }
+
+.frames img{
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: rgb(226, 222, 222);
+    border:ridge;
+    margin: 10px;
+
+}
